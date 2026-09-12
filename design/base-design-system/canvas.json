@@ -1,6 +1,11 @@
 {
   "artboards": [
-    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 1280, "h": 3800, "title": "Design System", "expand": "fill", "is_interactive": true }
+    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 1280, "h": 3800, "title": "Design System", "expand": "fill", "is_interactive": true, "page": "page-1" },
+    { "file": "App.dc.html", "x": 0, "y": 0, "w": 1440, "h": 900, "title": "Alkalmazás", "expand": "fill", "is_interactive": true, "page": "page-2" }
   ],
-  "launch": { "view": "focused", "file": "Main.dc.html" }
+  "pages": [
+    { "id": "page-1", "name": "Design rendszer" },
+    { "id": "page-2", "name": "Alkalmazás" }
+  ],
+  "launch": { "view": "focused", "file": "App.dc.html" }
 }
